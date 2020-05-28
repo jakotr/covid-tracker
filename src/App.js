@@ -30,6 +30,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1 className='App__title'>COVID-19 TRACKER</h1>
       <div className="section">
         <SelectCountry handleChange = {handleChange} />
         <Chart data = {data} country = {country} />

@@ -1,6 +1,6 @@
 .lists {
     width: 30%;
-    margin: 50px auto;
+    margin: 100px auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -47,6 +47,7 @@
     .lists {
         width: 100%;
         flex-direction: row;
+        margin-top: 20px;
     }
     .lists__item {
         margin: 0 10px;

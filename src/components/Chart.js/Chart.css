@@ -1,12 +1,34 @@
 .chart {
-    width: 70%;
-    margin: 30px auto;
+    width: 60%;
+    margin: 100px auto 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.chart select {
+    margin-top: 30px;
+    padding: 5px 0;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    /* width: 15%; */
+    outline: none;
+}
+
+.chart select:focus, .chart select:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 
 @media(max-width: 1024px) {
+    .chart {
+        width: 80%;
+    }
+}
+
+@media (max-width: 700px) {
     .chart {
         width: 100%;
     }
