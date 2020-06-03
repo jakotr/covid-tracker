@@ -7,9 +7,10 @@ Using React + ChartsJS.
 
 API used: https://covid19.mathdro.id/api
 
---
-Setup:
+##### Setup:
+
 Install Node.js then run:
+
 ```
 npm install
 npm start
